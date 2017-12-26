@@ -1,0 +1,268 @@
+#chats .chat {
+    border-bottom-width: 0;
+    border-color: #d4d4d4;
+    border-left-width: 0;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 0;
+    max-width: unset;
+    min-width: unset;
+}
+
+#chats .chat:first-child {
+    border-left-width: 2px;
+}
+
+#chats .chat:last-child {
+    border-right-width: 0;
+}
+
+#typing {
+    display: block;
+    pointer-events: none;
+    transition-duration: 0.5s;
+    transition-property: transform, opacity;
+    transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+#typing.ng-hide {
+    display: block;
+    opacity: 0;
+    transform: scaleY(0);
+    transition-duration: 0.25s;
+}
+
+#typing.ng-show {
+    display: block;
+    opacity: 1;
+    transform: none;
+}
+
+.avatar, .message:not(.system) .message-header .avatar-crop, .poll-listing .avatar-crop, .pillar .profile, .user-profile .avatar .image-wrap {
+    border: solid 1px rgba(0,0,0,0.875);
+    /*box-shadow: 0 0 0px 1px rgba(0,0,0,0.875);*/
+}
+
+.bold, .container .row .unsubscribe h1, .chat-messages .message .mention {
+    font-weight: bold;
+}
+
+.btn-group.categories, .btn-group.categories * {
+    font-family: "Open Sans Condensed", "Roboto Mono";
+}
+
+.chat-empty-group-popover {
+    display: none;
+}
+
+.chat-messages .likes-container .gmicon-heart {
+    display: inline;
+}
+
+.chat-messages .likes-container .gmicon-heart-outline {
+    display: none;
+}
+
+.chat-messages .likes-container .gmicon-heart-outline::before {
+    content: none;
+}
+
+.chat-messages .likes-container .gmicon-heart:before {
+    opacity: 0;
+    transform: scale(0);
+    transition-duration: 0.25s;
+    transition-property: opacity, transform;
+    transition-timing-function: ease;
+}
+
+.chat-messages .likes-container .pop-over {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+
+.chat-messages .likes-container.liked:hover .pop-over {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.chat-messages .message {
+    border-bottom: solid 0.0625em rgb(160,160,160);
+    transition-duration: 0.25s;
+    transition-property: border, background-color, text-shadow;
+    transition-timing-function: ease;
+}
+
+.chat-messages .message .mention {
+    color: hsl(196, 75%, 23.5%);
+    text-shadow: 0 0 0.125em #FFF;
+}
+
+.chat-messages .message .pasted {
+    border: unset;
+    color: unset;
+    font-family: unset;
+    padding-left: unset;
+}
+
+.chat-messages .message.highlight {
+    background-color: unset;
+}
+
+.chat-messages .message:hover {
+    background-color: hsla(162, 100%, 47%, 0.046875);
+    text-shadow: 0 0 0.125em #f7f7f7;
+}
+
+.chat-messages .message:hover .timestamp-divider {
+    background-color: hsl(196, 75%, 90%);
+}
+
+.chat-messages .message:not(.is-bookend):not(.system) {
+    border-bottom-color: rgba(160,160,160,0.375);
+    border-bottom-style: dashed;
+}
+
+.chat-messages .message:not(:hover), .chat-messages .message.me:not(:hover) {
+    background-color: transparent;
+}
+
+.chat-messages .timestamp-divider {
+    background-clip: padding-box;
+    background-color: hsla(196, 100%, 47%, 0.0625);
+    border-bottom: dashed 0.0625em rgba(160,160,160,0.375);
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    transition: background-color 0.25s ease;
+}
+
+.emoji {
+    background-color: transparent;
+    background-size: contain;
+    cursor: none;
+    height: 1em;
+    transition: transform 0.25s ease;
+    vertical-align: text-bottom;
+    width: 1em;
+}
+
+.emoji:hover, .emoji:focus {
+    transform: scale(2.5) rotate(1turn);
+    transition-delay: 0.125s;
+    transition-duration: 0.5s;
+}
+
+.gallery-zoom .image-info-bar .buttons {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.gallery-zoom .viewer-layout {
+    height: 100%;
+}
+
+.groupme-list .list-item {
+    transition: background-color 0.25s ease;
+}
+
+.img-circle, .user-profile .upload-image .image-wrap {
+    transition: border-radius 0.25s ease-out;
+}
+
+.img-circle:hover, .image-wrap:hover {
+    border-radius: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.message .message-header > .avatar:first-child, .poll-listing .avatar, .user-profile .avatar {
+    border: none;
+    /*box-shadow: none;*/
+}
+
+.message-composer .composer-layout .composer-wrapper div[contenteditable="true"] {
+    padding: calc(4em / 3);
+    padding-right: 3.875em;
+}
+
+.message-composer .composer-layout .composer-wrapper div[contenteditable="true"]:empty:before {
+    content: "send message…";
+    cursor: text;
+    left: initial;
+    position: static;
+    top: initial;
+}
+
+.message-composer .controls.controls-left {
+    display: none;
+}
+
+.message:hover .likes-container .gmicon-heart:before, .likes-container.liked .gmicon-heart:before {
+    opacity: 1;
+    transform: none;
+}
+
+.modal-content .avatar-wrap {
+    background-color: transparent;
+}
+
+.modal-content .likes-wrapper .likes {
+    filter: drop-shadow(0 0 1px black) drop-shadow(0 0 1px black) drop-shadow(0 0 1px black);
+}
+
+.nickname {
+    text-transform: capitalize;
+}
+
+.wysiwyg-editor, .emoji-wysiwyg-editor, .message-composer .composer-layout .composer-wrapper div[contenteditable="true"], input[type="text"], textarea {
+    caret-color: #00aff0;
+}
+
+::selection {
+    background-color: rgba(0,175,240,0.25);
+}
+
+:not(.glyphicon):not([class*="icon-"]) {
+    font-family: "Roboto";
+}
+
+[class^="gmicon-"], [class*=" gmicon-"], [class^="icon-"], [class*=" icon-"] {
+    transition: color 0.25s ease;
+}
+
+body.chatting.modal-open .current-media img.center-block {
+    background-color: transparent;
+    filter: drop-shadow(0 0 1em rgba(255, 255, 255, 0.875));
+}
+
+body.chatting.modal-open .modal-dialog .image-info-bar {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s linear;
+}
+
+body.chatting.modal-open .modal-dialog:hover .image-info-bar {
+    opacity: 1;
+    pointer-events: auto;
+    transition-duration: 1s;
+}
+
+code, kbd, pre, samp {
+    font-family: "Roboto Mono";
+}
+
+/*
+.chat-messages .push-pages .message:last-child, .chat-messages .push-pages .message:last-child .message {
+    border-bottom: none;
+}*/
+
+h1, h2, h3, h4, h5, h6, .heading, .header, .title {
+    font-family: "Roboto Slab", "Open Sans Condensed", system-ui, "Helvetica";
+    font-weight: bold;
+}
+
+[ng-click] {
+    cursor: pointer;
+}
