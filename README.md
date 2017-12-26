@@ -2,10 +2,11 @@
 Thank you for finding G&#xFEFF;M&#xFEFF;In&#xFEFF;Style! This code and [I](https://github.com/247flashgames) are in no way endorsed by Group&#xFEFF;Me. This is an unofficial custom stylesheet for [Group&#xFEFF;Me](https://groupme.com).
 ## using
 ### getting the code
-To use this, you can download and manually install the [`style.css`](/style.css). Preferredly, you can use a CSS `@import` like this:
+To use this stylesheet, you can use a CSS `@import` like this:
 ```css
 @import url("https://raw.githubusercontent.com/247flashgames/StyleMe/master/style.css");
 ```
+This will keep you using the latest version. If you would rather use a static local copy, you can download the [`style.css`](/style.css).
 ### installing the code
 In this section are listed a few browser extensions that may be used to inject this CSS into Group&#xFEFF;Me. Most of the browser extensions mentioned in this section **have not been adequately reviewed** by contributors to this READ&#xFEFF;ME. **Always read terms and conditions, permissions, and reviews before installing.**
 #### in [Google Chrome](https://www.google.com/chrome) ![Google Chrome logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/16px-Google_Chrome_icon_%28September_2014%29.svg.png)
