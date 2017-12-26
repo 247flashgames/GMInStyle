@@ -1,5 +1,5 @@
-# StyleMe
-Thank you for finding Style&#xfeff;Me! This code and [I](https://github.com/247flashgames) are in no way endorsed by Group&#xfeff;Me. This is an unofficial custom stylesheet for [Group&#xfeff;Me](https://groupme.com).
+# G&#xfeff;M&#xfeff;In&#xfeff;Style
+Thank you for finding G&#xfeff;M&#xfeff;In&#xfeff;Style! This code and [I](https://github.com/247flashgames) are in no way endorsed by Group&#xfeff;Me. This is an unofficial custom stylesheet for [Group&#xfeff;Me](https://groupme.com).
 ## using
 ### getting the code
 To use this, you can download and manually install the [`style.css`](/style.css). Preferredly, you can use a CSS `@import` like this:
@@ -9,7 +9,7 @@ To use this, you can download and manually install the [`style.css`](/style.css)
 ### installing the code
 In this section are listed a few browser extensions that may be used to inject this CSS into Group&#xfeff;Me. Most of the browser extensions mentioned in this section **have not been adequately reviewed** by contributors to this READ&#xfeff;ME. **Always read terms and conditions, permissions, and reviews before installing.**
 #### in [Google Chrome](https://www.google.com/chrome) ![Google Chrome logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/16px-Google_Chrome_icon_%28September_2014%29.svg.png)
-Style&#xfeff;Me is best tested in and optimised for [Google Chrome](https://www.google.com/chrome).
+G&#xfeff;M&#xfeff;In&#xfeff;Style is best tested in and optimised for [Google Chrome](https://www.google.com/chrome).
 * [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
 * [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
 * [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb)
