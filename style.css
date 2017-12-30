@@ -97,6 +97,7 @@
 .chat-messages .message .mention {
     color: hsl(196, 75%, 23.5%);
     text-shadow: 0 0 0.125em #FFF;
+    font-family: "Roboto Condensed", "Roboto" !important;
 }
 
 .chat-messages .message .pasted {
