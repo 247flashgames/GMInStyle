@@ -97,6 +97,7 @@
 .chat-messages .message .mention {
     color: hsl(196, 75%, 23.5%);
     text-shadow: 0 0 0.125em #FFF;
+    font-family: "Roboto Condensed", "Roboto" !important;
 }
 
 .chat-messages .message .pasted {
@@ -132,7 +133,7 @@
     background-clip: padding-box;
     background-color: hsla(196, 100%, 47%, 0.0625);
     border-bottom: dashed 0.0625em rgba(160,160,160,0.375);
-    font-family: "Roboto Mono", monospace;
+    font-family: "Roboto Mono", monospace !important;
     font-weight: bold;
     transition: background-color 0.25s ease;
 }
@@ -225,7 +226,7 @@
 }
 
 :not(.glyphicon):not([class*="icon-"]) {
-    font-family: "Roboto";
+    font-family: "Roboto" !important;
 }
 
 [class^="gmicon-"], [class*=" gmicon-"], [class^="icon-"], [class*=" icon-"] {
@@ -250,7 +251,7 @@ body.chatting.modal-open .modal-dialog:hover .image-info-bar {
 }
 
 code, kbd, pre, samp {
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono" !important;
 }
 
 /*
@@ -259,7 +260,7 @@ code, kbd, pre, samp {
 }*/
 
 h1, h2, h3, h4, h5, h6, .heading, .header, .title {
-    font-family: "Roboto Slab", "Open Sans Condensed", system-ui, "Helvetica";
+    font-family: "Roboto Slab", "Open Sans Condensed", system-ui, "Helvetica" !important;
     font-weight: bold;
 }
 
