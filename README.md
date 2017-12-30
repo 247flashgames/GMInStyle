@@ -8,7 +8,7 @@ To use this stylesheet, you can use a CSS `@import` like this:
 ```
 This will keep you using the latest version. If you would rather use a static local copy, you can download the [`style.css`](/style.css).
 ### installing the code
-In this section are listed a few browser extensions that may be used to inject this CSS into Group&#xFEFF;Me. Most of the browser extensions mentioned in this section **have not been adequately reviewed** by contributors to this READ&#xFEFF;ME. **Always read terms and conditions, permissions, and reviews before installing.**
+In this section are listed a few browser extensions that may be used to inject this CSS into Group&#xFEFF;Me. Most of the browser extensions mentioned in this section **have not been adequately reviewed** by contributors to this READ&#xFEFF;ME. **Always read terms and conditions, permissions, and reviews before installing.** These extensions are suggestions, and **no guarantees** are made regarding them; thus **no liability** for the extensions is automatically had by contributors to this READ&#xFEFF;ME.
 #### in [Google Chrome](https://www.google.com/chrome) ![Google Chrome logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/16px-Google_Chrome_icon_%28September_2014%29.svg.png)
 G&#xFEFF;M&#xFEFF;In&#xFEFF;Style is best tested in and optimised for [Google Chrome](https://www.google.com/chrome).
 * [Style&#xFEFF;bot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
