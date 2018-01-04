@@ -268,3 +268,17 @@ h1, h2, h3, h4, h5, h6, .heading, .header, .title {
 [ng-click] {
     cursor: pointer;
 }
+
+.groupme-list .list-content {
+    height: auto;
+    height: max-content;
+}
+
+.groupme-list .list-item {
+    height: min-content;
+}
+
+.groupme-list .list-item p {
+    max-height: 128px;
+    max-height: 8lh;
+}
