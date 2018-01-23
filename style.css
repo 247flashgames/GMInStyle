@@ -144,15 +144,18 @@
     background-size: contain;
     cursor: none;
     height: 1em;
-    transition: transform 0.25s ease;
+    transition-property: transform, filter;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
     vertical-align: text-bottom;
     width: 1em;
 }
 
 .emoji:hover, .emoji:focus {
-    transform: scale(2.5) rotate(1turn);
+    transform: scale(2.5) rotateZ(0.0625turn) rotateY(1turn) rotateZ(-0.0625turn);
+    filter: drop-shadow(0 0 0.125em #F7F7F7);
     transition-delay: 0.125s;
-    transition-duration: 0.5s;
+    transition-duration: 0.75s;
 }
 
 .gallery-zoom .image-info-bar .buttons {
