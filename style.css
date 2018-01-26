@@ -271,3 +271,7 @@ h1, h2, h3, h4, h5, h6, .heading, .header, .title {
 [ng-click] {
     cursor: pointer;
 }
+
+.image-zoom .modal-dialog .modal-content .picture img {
+    background-color: transparent;
+}
