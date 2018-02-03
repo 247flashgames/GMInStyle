@@ -4,7 +4,7 @@ Thank you for finding G&#xFEFF;M&#xFEFF;In&#xFEFF;Style! This code and [I](https
 ### getting the code
 To use this stylesheet, you can use a CSS `@import` like this:
 ```css
-@import url("https://raw.githubusercontent.com/247flashgames/StyleMe/master/style.css");
+@import url("https://raw.githubusercontent.com/rmw4269/GMInStyle/master/style.css");
 ```
 This will keep you using the latest version. If you would rather use a static local copy, you can download the [`style.css`](/style.css).
 ### installing the code
